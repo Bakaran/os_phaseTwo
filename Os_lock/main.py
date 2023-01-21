@@ -187,10 +187,10 @@ def div(num, value,s):
 
 def Show(num,s):
     while True:
-        s.Wait(4)
+        #s.Wait(4)
         sleep(0.5)
         print(num.value)
-        s.Signal()
+        #s.Signal()
 
 if __name__ == '__main__':
     num = Value('d', 0.0)
